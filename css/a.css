@@ -99,7 +99,7 @@ ul,ol{
 }
 
 .banner{
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/bg1.jpg);
     height:515px;
     background-position:center center;
     background-size:cover;
@@ -107,7 +107,7 @@ ul,ol{
 
 .banner .mask{
     height:515px;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.3);
 }
 
 .userCard{
