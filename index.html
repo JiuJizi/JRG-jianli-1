@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>樊星烨(JiuJizi)的个人简历</title>
-    <link rel="stylesheet" href="css/a.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/loading.css">
     <script src="//at.alicdn.com/t/font_992938_if5m5itrn2.js"></script>
     <style type="text/css">
         .icon {
@@ -17,6 +18,9 @@
     </style>
 </head>
 <body>
+    <div id="siteWelcome" class="siteWelcome active">
+        <div class="loading"></div>
+    </div>
     <div class="topNavBar">
         <div class="topNavBarInner clearfix">
                 <a class="logo" href="#" alt="logo">
@@ -172,5 +176,8 @@
                 </div>
             </div>
     </section>
+    <script>
+        siteWelcome.classList.remove('active')
+    </script>
 </body>
 </html>

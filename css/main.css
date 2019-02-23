@@ -66,9 +66,3 @@ section.portfolio .works .big,section.portfolio .works .small{position: absolute
 section.portfolio .works .big{top:0;left:0;}
 section.portfolio .works .small.a{top:0;left:644px;}
 section.portfolio .works .small.b{top:298px;left:644px;}
-
-.loading{width:200px;height:200px;border:1px solid red;position:relative;  }  
-.loading::before,  .loading::after{content:'';position:absolute;width:0px;height:0px;background:black;border-radius:50%;top:0;bottom:0;left:0;right:0;margin:auto;animation:a 1.5s linear infinite;  }  
-.loading::after{animation-delay:0.75s;  }    
-@keyframes a{0%{  width:0px;height:0px;opacity:1;}100%{  width:100px;height:100px;opacity:0;}  }
-
